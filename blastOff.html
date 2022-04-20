@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+    created by ELijah Hawks
+    csc102 class
+    10012022
+    elijah552214@gmail.com
+    -->
+
+<head>
+    <script src="code.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>
+        prof Prster's UATSpace page
+    </title>
+
+</head>
+
+<body>
+    <table>
+        <td><img src ="UATspaceLogo-1.jpg"></td>
+        <td>
+            <h1>
+                UAT Space Program
+            </h1> 
+        </td>
+    </table>
+    <table id="data" border="2" width="70%">
+        <col style="width: 35%">
+        <col style="width: 35%">
+        <thead>
+            <th>Data Type</th>
+            <th>
+                Reading
+            </th>
+        </thead>
+        <tbody>
+            <tr id="seconds"></td> Time Passed:</td></td>15 Seconds</td></tr>
+            <tr id="Latitude"></td> Latitude:</td></td>0</td></tr>
+            <tr id="Longitude"></td> Longitude:</td></td>0</td></tr>
+            <tr id=" GpsSensor_alt"></td> GPS Altitude:</td></td>0</td></tr>
+            <tr id=" BPMSensor_alt"></td> BMP Altitude:</td></td>30383.04</td></tr>
+            <tr id=" BMPSensor_pres"></td> BMP Pressure:</td></td>0</td></tr>
+            <tr id=" BMPSensor_temp"></td> BMP Temperature:</td></td>0</td></tr>
+            <tr id=" digSensor_temp"></td>Digital Temperature :</td></td>0</td></tr>
+            <tr id=" CSSSensor_temp"></td> CSS Temperature:</td></td>0</td></tr>
+            <tr id=" CSSSensor_eCO2"></td> CSS eCO2:</td></td>0</td></tr>
+            <tr id=" CSSSensor_TVOC"></td> CSS TVOC:</td></td>0</td></tr>
+            <tr id=" UV"></td> UV:</td></td>0</td></tr>
+            <tr id=" accelX"></td> accelX:</td></td>0</td></tr>
+            <tr id=" accelY"></td> accelyY:</td></td>0</td></tr>
+            <tr id=" accelZ"></td> accelZ:</td></td>0</td></tr>
+            <tr id=" magneticX"></td> MagneticX:</td></td>0</td></tr>
+            <tr id=" magneticY"></td> MagneticY:</td></td>0</td></tr>
+            <tr id=" magneticZ"></td> MagneticZ:</td></td>0</td></tr>
+            <tr id=" gyrowX"></td> GyrowX:</td></td>0</td></tr>
+            <tr id=" GyrowY"></td> GyrowY:</td></td>0</td></tr>
+            <tr id=" gyrowZ"></td> GyrowZ:</td></td>0</td></tr>
+            <tr id=" accelZ"></td> accelZ:</td></td>0</td></tr>
+        </tbody>
+            
+    
+    </table>
+    <br>
+
+    <body>
+
+
+
+        
+        <button  id="startButton" onclick="Start();">
+            Start
+        </button>
+        </button>
+        <br>
+        <br>
+        <button id="stopButton" onclick="Stop();">
+            Stop
+        </button>
+        <br>
+        <br>
+        <button class="lgButton" onclick="playStation();">Play Station noise</button>
+        <br>
+        <br>
+        <button class="lgButton" onclick="playTheBells();">Play Station music</button>
+
+        <h3>Let's play Craps!!!!</h3>
+        <div id="Crapsresults"> Craps Results</div>
+        <div id="Die1results"> Die1 Results</div>
+        <div id="Die2results"> Die2 Results</div>
+        <div id="Sumresults"> Sum Results</div>
+        <button onclick="playCraps();"> playCraps</button>
+
+        document.write("Simple Craps")
+        document.write("<br />")
+        play();
+
+
+    </body>
+
+
+
+</html>
